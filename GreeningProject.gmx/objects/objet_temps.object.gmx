@@ -73,11 +73,11 @@ alarm[0] = 30
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if not global.time = 0
+            <string>if not (global.time == 0)
 then exit
-//else
-//show_message('Temps écoulé !')
-//game_end()
+else
+show_message('Temps écoulé !')
+game_end()
 </string>
           </argument>
         </arguments>
