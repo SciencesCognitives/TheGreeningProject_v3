@@ -16,6 +16,7 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\super_bonus_sprite</sprite>
+    <sprite>sprites\texte_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
@@ -24,6 +25,7 @@
     <path>paths\path0</path>
     <path>paths\path1</path>
   </paths>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="avatar">
       <object>objects\Personnage_objet</object>
@@ -48,6 +50,7 @@
       <object>objects\bonus_objet</object>
       <object>objects\super_bonus_objet</object>
     </objects>
+    <object>objects\texte_objet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
