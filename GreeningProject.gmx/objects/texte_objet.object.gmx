@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(Personnage_objet)
+            <string>draw_self();
+
+if instance_exists(Personnage_objet)
 {
 if place_meeting(x, y, Personnage_objet)
 {
@@ -74,8 +76,8 @@ draw_text(x-50, y-350, "Attrape le super bonus")
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
-  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
+  <PhysicsObjectDensity>0</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
@@ -84,7 +86,9 @@ draw_text(x-50, y-350, "Attrape le super bonus")
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,0</point>
+    <point>-16,-16</point>
+    <point>16,-16</point>
     <point>16,16</point>
+    <point>-16,16</point>
   </PhysicsShapePoints>
 </object>
