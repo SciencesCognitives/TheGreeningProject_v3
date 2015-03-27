@@ -25,7 +25,10 @@
     <path>paths\path0</path>
     <path>paths\path1</path>
   </paths>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\aide_joueur</font>
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <objects name="avatar">
       <object>objects\Personnage_objet</object>

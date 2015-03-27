@@ -31,9 +31,35 @@ if place_meeting(x, y, Personnage_objet)
 {
 
 
-if (x&gt;100 and x&lt;400)
+if (room = room1 and x&gt;100 and x&lt;400)
 {
-draw_text(x+100, y-200, "Saute au dessus de la canette")
+draw_set_font(aide_joueur)
+draw_set_color(c_gray)
+draw_rectangle(x+100, y-400, x+700, y-350,0)
+draw_set_color(c_black)
+draw_rectangle(x+100, y-400, x+700, y-350,1)
+draw_set_color(c_black)
+draw_text(x+150, y-400, "Saute au dessus de la canette")
+}
+if (room = room1 and x&gt;400)
+{
+draw_set_font(aide_joueur)
+draw_set_color(c_gray)
+draw_rectangle(x-120, y-370, x+180, y-280,0)
+draw_set_color(c_black)
+draw_rectangle(x-120, y-370, x+180, y-280,1)
+draw_set_color(c_black)
+draw_text(x-100, y-350, "Evite la stalactite")
+}
+if (room = room2)
+{
+draw_set_font(aide_joueur)
+draw_set_color(c_gray)
+draw_rectangle(x-80, y-380, x+350, y-280,0)
+draw_set_color(c_black)
+draw_rectangle(x-80, y-380, x+350, y-280,1)
+draw_set_color(c_black)
+draw_text(x-50, y-350, "Attrape le super bonus")
 }
 
 
